@@ -1,0 +1,16 @@
+front end 
+main page 
+   images and vidoes 
+   problem statememts  (amount ) -> new screen 
+   registration page 
+    
+new screen 
+  registration 
+  name  amount 
+
+backend
+	name amount 
+	25%    75% 
+
+count 
+revenue generated 
