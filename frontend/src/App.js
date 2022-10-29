@@ -2,6 +2,7 @@
 import './App.css';
 import Header from './components/header'
 import MainPage from './components/mainPage'
+import Current from "./components/currentCampaigns"
 //import Reg from "./components/RegApp"
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header/>
       {/* <Reg/> */}
       <MainPage/>
+      <Current/>
     </div>
   );
 }
