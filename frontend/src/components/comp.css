@@ -1,0 +1,48 @@
+.header{
+    display: grid;
+    background-color: red;
+    grid-template-areas: "logo nav";
+    height: 10vh;
+}
+.logo{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.Nav{
+    grid-area: "nav";
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-columns: auto auto auto auto;
+    align-items: flex-end;
+    justify-items:end;
+}
+#donate{
+    background-color: #ffffff; /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  
+  margin-bottom: 5px;
+}
+#fundraiser{
+    background-color: #5953fb; /* Green */
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
