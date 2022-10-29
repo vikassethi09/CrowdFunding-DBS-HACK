@@ -1,15 +1,11 @@
-import React from 'react'
-import './comp.css'
-export default function header() {
-  return (
-    <div className='header'>
-        
-        <div className='logo'> CrowdFunding DBS</div>
-        <nav className='Nav'>
-          
-            <button id='donate'>Donate</button>
-            <button id="fundraiser">Cearte a fundraiser </button>
+import React from 'react';
+function Header() {
+    return(
+        <nav class="bg-dark navbar-dark navbar">
+            <div className="row col-12 d-flex justify-content-center text-white">
+                <h3>Registration</h3>
+            </div>
         </nav>
-    </div>
-  )
+    )
 }
+export default Header;
