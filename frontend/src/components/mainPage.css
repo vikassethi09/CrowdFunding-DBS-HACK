@@ -1,0 +1,21 @@
+.main{
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+
+}
+.left-main{
+    flex-basis:  35%;
+    
+    margin: auto;
+
+}
+.right-main{
+    margin: auto;
+    flex-basis:  45%;
+}
+#fund{
+    height:90vh;
+}
